@@ -1,0 +1,343 @@
+claim_id,field,expected,actual,pass
+DEMO-001,claim_id,demo-001,demo-001,True
+DEMO-001,model,ax220,ax220,True
+DEMO-001,serial,exc-220-1042,exc-220-1042,True
+DEMO-001,hours,4286,4286,True
+DEMO-001,complaint,boom drifts downward during hold,boom drifts downward during hold,True
+DEMO-001,fault_code,hyd-p22,hyd-p22,True
+DEMO-001,cause,internal boom-cylinder seal bypass,internal boom-cylinder seal bypass,True
+DEMO-001,correction,resealed boom cylinder,resealed boom cylinder,True
+DEMO-001,parts,sk-20491,sk-20491,True
+DEMO-001,labor,6.5,6.5,True
+DEMO-001,reading,27.4 mpa,27.4 mpa,True
+DEMO-001,verification,boom hold test pass; no measurable drift after 10 minutes,boom hold test pass; no measurable drift after 10 minutes,True
+DEMO-002,claim_id,demo-002,demo-002,True
+DEMO-002,model,ax220,ax220,True
+DEMO-002,serial,exc-220-1042,exc-220-1042,True
+DEMO-002,hours,4286,4286,True
+DEMO-002,complaint,boom drifts downward during hold,boom drifts downward during hold,True
+DEMO-002,fault_code,hyd-p22,hyd-p22,True
+DEMO-002,cause,internal boom-cylinder seal bypass,internal boom-cylinder seal bypass,True
+DEMO-002,correction,resealed boom cylinder,resealed boom cylinder,True
+DEMO-002,parts,sk-20491,sk-20491,True
+DEMO-002,labor,6.5,6.5,True
+DEMO-002,reading,not recorded,not recorded,True
+DEMO-002,verification,boom hold test pass; no measurable drift after 10 minutes,boom hold test pass; no measurable drift after 10 minutes,True
+DEMO-003,claim_id,demo-003,demo-003,True
+DEMO-003,model,ax220,ax220,True
+DEMO-003,serial,exc-220-1042 | exc-220-1042-x,exc-220-1042 | exc-220-1042-x,True
+DEMO-003,hours,4286,4286,True
+DEMO-003,complaint,boom drifts downward during hold,boom drifts downward during hold,True
+DEMO-003,fault_code,hyd-p22,hyd-p22,True
+DEMO-003,cause,internal boom-cylinder seal bypass,internal boom-cylinder seal bypass,True
+DEMO-003,correction,resealed boom cylinder,resealed boom cylinder,True
+DEMO-003,parts,sk-20491,sk-20491,True
+DEMO-003,labor,6.5,6.5,True
+DEMO-003,reading,27.4 mpa,27.4 mpa,True
+DEMO-003,verification,boom hold test pass; no measurable drift after 10 minutes,boom hold test pass; no measurable drift after 10 minutes,True
+DEMO-004,claim_id,demo-004,demo-004,True
+DEMO-004,model,ax220,ax220,True
+DEMO-004,serial,exc-220-1042,exc-220-1042,True
+DEMO-004,hours,4286,4286,True
+DEMO-004,complaint,boom drifts downward during hold,boom drifts downward during hold,True
+DEMO-004,fault_code,hyd-p22,hyd-p22,True
+DEMO-004,cause,hydraulic fault,hydraulic fault,True
+DEMO-004,correction,resealed boom cylinder,resealed boom cylinder,True
+DEMO-004,parts,sk-20491,sk-20491,True
+DEMO-004,labor,6.5,6.5,True
+DEMO-004,reading,27.4 mpa,27.4 mpa,True
+DEMO-004,verification,boom hold test pass; no measurable drift after 10 minutes,boom hold test pass; no measurable drift after 10 minutes,True
+DEMO-005,claim_id,demo-005,demo-005,True
+DEMO-005,model,ax220,ax220,True
+DEMO-005,serial,exc-220-1042,exc-220-1042,True
+DEMO-005,hours,4286,4286,True
+DEMO-005,complaint,boom drifts downward during hold,boom drifts downward during hold,True
+DEMO-005,fault_code,hyd-p22,hyd-p22,True
+DEMO-005,cause,internal boom-cylinder seal bypass,internal boom-cylinder seal bypass,True
+DEMO-005,correction,resealed boom cylinder,resealed boom cylinder,True
+DEMO-005,parts,sk-20491 | sk-20491-alt,sk-20491 | sk-20491-alt,True
+DEMO-005,labor,6.5,6.5,True
+DEMO-005,reading,27.4 mpa,27.4 mpa,True
+DEMO-005,verification,boom hold test pass; no measurable drift after 10 minutes,boom hold test pass; no measurable drift after 10 minutes,True
+DEMO-006,claim_id,demo-006,demo-006,True
+DEMO-006,model,dg175,dg175,True
+DEMO-006,serial,gen-175-22891,gen-175-22891,True
+DEMO-006,hours,4172,4172,True
+DEMO-006,complaint,generator cranks but does not start,generator cranks but does not start,True
+DEMO-006,fault_code,143,143,True
+DEMO-006,cause,failed fuel pressure sensor,failed fuel pressure sensor,True
+DEMO-006,correction,replaced fuel pressure sensor,replaced fuel pressure sensor,True
+DEMO-006,parts,fps-2118,fps-2118,True
+DEMO-006,labor,2.5,2.5,True
+DEMO-006,reading,235 kpa,235 kpa,True
+DEMO-006,verification,load test pass at 75% rated load for 30 minutes,load test pass at 75% rated load for 30 minutes,True
+DEMO-007,claim_id,demo-007,demo-007,True
+DEMO-007,model,dg175,dg175,True
+DEMO-007,serial,gen-175-22891,gen-175-22891,True
+DEMO-007,hours,4172,4172,True
+DEMO-007,complaint,generator cranks but does not start,generator cranks but does not start,True
+DEMO-007,fault_code,143,143,True
+DEMO-007,cause,failed fuel pressure sensor,failed fuel pressure sensor,True
+DEMO-007,correction,replaced fuel pressure sensor,replaced fuel pressure sensor,True
+DEMO-007,parts,fps-2118,fps-2118,True
+DEMO-007,labor,2.5,2.5,True
+DEMO-007,reading,not recorded,not recorded,True
+DEMO-007,verification,load test pass at 75% rated load for 30 minutes,load test pass at 75% rated load for 30 minutes,True
+DEMO-008,claim_id,demo-008,demo-008,True
+DEMO-008,model,dg175,dg175,True
+DEMO-008,serial,gen-175-22891,gen-175-22891,True
+DEMO-008,hours,4172,4172,True
+DEMO-008,complaint,generator cranks but does not start,generator cranks but does not start,True
+DEMO-008,fault_code,143,143,True
+DEMO-008,cause,failed fuel pressure sensor,failed fuel pressure sensor,True
+DEMO-008,correction,replaced fuel pressure sensor,replaced fuel pressure sensor,True
+DEMO-008,parts,fps-2118,fps-2118,True
+DEMO-008,labor,2.5,2.5,True
+DEMO-008,reading,235 kpa,235 kpa,True
+DEMO-008,verification,not documented,not documented,True
+DEMO-009,claim_id,demo-009,demo-009,True
+DEMO-009,model,dg175,dg175,True
+DEMO-009,serial,gen-175-22891,gen-175-22891,True
+DEMO-009,hours,4127 | 4172,4127 | 4172,True
+DEMO-009,complaint,generator cranks but does not start,generator cranks but does not start,True
+DEMO-009,fault_code,143,143,True
+DEMO-009,cause,failed fuel pressure sensor,failed fuel pressure sensor,True
+DEMO-009,correction,replaced fuel pressure sensor,replaced fuel pressure sensor,True
+DEMO-009,parts,fps-2118,fps-2118,True
+DEMO-009,labor,2.5,2.5,True
+DEMO-009,reading,235 kpa,235 kpa,True
+DEMO-009,verification,load test pass at 75% rated load for 30 minutes,load test pass at 75% rated load for 30 minutes,True
+DEMO-010,claim_id,demo-010,demo-010,True
+DEMO-010,complaint,generator cranks but does not start,generator cranks but does not start,True
+DEMO-010,cause,failed fuel pressure sensor,failed fuel pressure sensor,True
+DEMO-010,parts,fps-2118,fps-2118,True
+DEMO-010,labor,2.5,2.5,True
+DEMO-011,claim_id,demo-011,demo-011,True
+DEMO-011,model,ie-q6,ie-q6,True
+DEMO-011,serial,eng-q6-7712,eng-q6-7712,True
+DEMO-011,hours,6930,6930,True
+DEMO-011,complaint,low oil pressure warning under warm idle,low oil pressure warning under warm idle,True
+DEMO-011,fault_code,ecm-0521,ecm-0521,True
+DEMO-011,cause,oil pressure sender reading out of tolerance,oil pressure sender reading out of tolerance,True
+DEMO-011,correction,replaced oil pressure sender,replaced oil pressure sender,True
+DEMO-011,parts,ops-771,ops-771,True
+DEMO-011,labor,2.0,2.0,True
+DEMO-011,reading,185 kpa,185 kpa,True
+DEMO-011,verification,warm idle run test pass; oil pressure stable,warm idle run test pass; oil pressure stable,True
+DEMO-012,claim_id,demo-012,demo-012,True
+DEMO-012,model,ie-q6,ie-q6,True
+DEMO-012,serial,eng-q6-7712,eng-q6-7712,True
+DEMO-012,hours,6930,6930,True
+DEMO-012,complaint,low oil pressure warning under warm idle,low oil pressure warning under warm idle,True
+DEMO-012,fault_code,ecm-0521,ecm-0521,True
+DEMO-012,cause,oil pressure sender reading out of tolerance,oil pressure sender reading out of tolerance,True
+DEMO-012,correction,replaced oil pressure sender,replaced oil pressure sender,True
+DEMO-012,parts,ops-771,ops-771,True
+DEMO-012,labor,2.0,2.0,True
+DEMO-012,reading,not recorded,not recorded,True
+DEMO-012,verification,warm idle run test pass; oil pressure stable,warm idle run test pass; oil pressure stable,True
+DEMO-013,claim_id,demo-013,demo-013,True
+DEMO-013,model,ie-q6,ie-q6,True
+DEMO-013,serial,eng-q6-7712 | eng-q6-7712-p,eng-q6-7712 | eng-q6-7712-p,True
+DEMO-013,hours,6930,6930,True
+DEMO-013,complaint,low oil pressure warning under warm idle,low oil pressure warning under warm idle,True
+DEMO-013,fault_code,ecm-0521,ecm-0521,True
+DEMO-013,cause,oil pressure sender reading out of tolerance,oil pressure sender reading out of tolerance,True
+DEMO-013,correction,replaced oil pressure sender,replaced oil pressure sender,True
+DEMO-013,parts,ops-771,ops-771,True
+DEMO-013,labor,2.0,2.0,True
+DEMO-013,reading,185 kpa,185 kpa,True
+DEMO-013,verification,warm idle run test pass; oil pressure stable,warm idle run test pass; oil pressure stable,True
+DEMO-014,claim_id,demo-014,demo-014,True
+DEMO-014,model,ie-q6,ie-q6,True
+DEMO-014,serial,eng-q6-7712,eng-q6-7712,True
+DEMO-014,hours,6930,6930,True
+DEMO-014,complaint,low oil pressure warning under warm idle,low oil pressure warning under warm idle,True
+DEMO-014,fault_code,ecm-0521,ecm-0521,True
+DEMO-014,cause,possible sender issue; cause not confirmed,possible sender issue; cause not confirmed,True
+DEMO-014,correction,replaced oil pressure sender,replaced oil pressure sender,True
+DEMO-014,parts,ops-771,ops-771,True
+DEMO-014,labor,2.0,2.0,True
+DEMO-014,reading,185 kpa,185 kpa,True
+DEMO-014,verification,warm idle run test pass; oil pressure stable,warm idle run test pass; oil pressure stable,True
+DEMO-015,claim_id,demo-015,demo-015,True
+DEMO-015,model,ie-q6,ie-q6,True
+DEMO-015,serial,eng-q6-7712,eng-q6-7712,True
+DEMO-015,hours,6930,6930,True
+DEMO-015,complaint,low oil pressure warning under warm idle,low oil pressure warning under warm idle,True
+DEMO-015,fault_code,ecm-0521,ecm-0521,True
+DEMO-015,cause,oil pressure sender reading out of tolerance,oil pressure sender reading out of tolerance,True
+DEMO-015,correction,replaced oil pressure sender,replaced oil pressure sender,True
+DEMO-015,parts,ops-771,ops-771,True
+DEMO-015,labor,2.0,2.0,True
+DEMO-015,reading,185 kpa,185 kpa,True
+DEMO-015,verification,warm idle run test pass; oil pressure stable,warm idle run test pass; oil pressure stable,True
+DEMO-016,claim_id,demo-016,demo-016,True
+DEMO-016,model,fl30e,fl30e,True
+DEMO-016,serial,flt-30-8891,flt-30-8891,True
+DEMO-016,hours,3190,3190,True
+DEMO-016,complaint,intermittent loss of traction,intermittent loss of traction,True
+DEMO-016,fault_code,trc-17,trc-17,True
+DEMO-016,cause,traction motor encoder failure,traction motor encoder failure,True
+DEMO-016,correction,replaced traction motor encoder,replaced traction motor encoder,True
+DEMO-016,parts,enc-480,enc-480,True
+DEMO-016,labor,3.0,3.0,True
+DEMO-016,reading,48.8 v,48.8 v,True
+DEMO-016,verification,forward/reverse loaded operational test pass,forward/reverse loaded operational test pass,True
+DEMO-017,claim_id,demo-017,demo-017,True
+DEMO-017,model,fl30e,fl30e,True
+DEMO-017,serial,flt-30-8891,flt-30-8891,True
+DEMO-017,hours,3190,3190,True
+DEMO-017,complaint,intermittent loss of traction,intermittent loss of traction,True
+DEMO-017,fault_code,trc-17,trc-17,True
+DEMO-017,cause,traction motor encoder failure,traction motor encoder failure,True
+DEMO-017,correction,replaced traction motor encoder,replaced traction motor encoder,True
+DEMO-017,parts,hyp-30 | trm-30,hyp-30 | trm-30,True
+DEMO-017,labor,3.0,3.0,True
+DEMO-017,reading,48.8 v,48.8 v,True
+DEMO-017,verification,forward/reverse loaded operational test pass,forward/reverse loaded operational test pass,True
+DEMO-018,claim_id,demo-018,demo-018,True
+DEMO-018,model,fl30e,fl30e,True
+DEMO-018,serial,flt-30-8891,flt-30-8891,True
+DEMO-018,hours,3190,3190,True
+DEMO-018,complaint,intermittent loss of traction,intermittent loss of traction,True
+DEMO-018,fault_code,trc-17,trc-17,True
+DEMO-018,cause,traction motor encoder failure,traction motor encoder failure,True
+DEMO-018,correction,replaced traction motor encoder,replaced traction motor encoder,True
+DEMO-018,parts,enc-480,enc-480,True
+DEMO-018,labor,3.0,3.0,True
+DEMO-018,reading,not recorded,not recorded,True
+DEMO-018,verification,forward/reverse loaded operational test pass,forward/reverse loaded operational test pass,True
+DEMO-019,claim_id,demo-019,demo-019,True
+DEMO-019,model,fl30e,fl30e,True
+DEMO-019,serial,flt-30-8891,flt-30-8891,True
+DEMO-019,hours,3190,3190,True
+DEMO-019,complaint,intermittent loss of traction,intermittent loss of traction,True
+DEMO-019,fault_code,trc-17,trc-17,True
+DEMO-019,cause,fixed unit,fixed unit,True
+DEMO-019,correction,replaced traction motor encoder,replaced traction motor encoder,True
+DEMO-019,parts,enc-480,enc-480,True
+DEMO-019,labor,3.0,3.0,True
+DEMO-019,reading,48.8 v,48.8 v,True
+DEMO-019,verification,forward/reverse loaded operational test pass,forward/reverse loaded operational test pass,True
+DEMO-020,claim_id,demo-020,demo-020,True
+DEMO-020,model,ac90,ac90,True
+DEMO-020,serial,cmp-90-4147,cmp-90-4147,True
+DEMO-020,hours,5512,5512,True
+DEMO-020,complaint,low discharge pressure and extended recovery time,low discharge pressure and extended recovery time,True
+DEMO-020,fault_code,p-low,p-low,True
+DEMO-020,cause,discharge valve leakage,discharge valve leakage,True
+DEMO-020,correction,replaced discharge valve assembly,replaced discharge valve assembly,True
+DEMO-020,parts,dv-903,dv-903,True
+DEMO-020,labor,4.0,4.0,True
+DEMO-020,reading,8.2 bar,8.2 bar,True
+DEMO-020,verification,operating test pass; discharge pressure stable at 10.1 bar,operating test pass; discharge pressure stable at 10.1 bar,True
+DEMO-021,claim_id,demo-021,demo-021,True
+DEMO-021,model,ac90,ac90,True
+DEMO-021,serial,cmp-90-4147,cmp-90-4147,True
+DEMO-021,hours,5512,5512,True
+DEMO-021,complaint,low discharge pressure and extended recovery time,low discharge pressure and extended recovery time,True
+DEMO-021,fault_code,p-low,p-low,True
+DEMO-021,cause,discharge valve leakage,discharge valve leakage,True
+DEMO-021,correction,replaced discharge valve assembly,replaced discharge valve assembly,True
+DEMO-021,parts,dv-903,dv-903,True
+DEMO-021,labor,4.0,4.0,True
+DEMO-021,reading,not recorded,not recorded,True
+DEMO-021,verification,operating test pass; discharge pressure stable at 10.1 bar,operating test pass; discharge pressure stable at 10.1 bar,True
+DEMO-022,claim_id,demo-022,demo-022,True
+DEMO-022,model,ac90,ac90,True
+DEMO-022,serial,cmp-90-4147,cmp-90-4147,True
+DEMO-022,hours,5512,5512,True
+DEMO-022,complaint,low discharge pressure and extended recovery time,low discharge pressure and extended recovery time,True
+DEMO-022,fault_code,p-low,p-low,True
+DEMO-022,cause,discharge valve leakage,discharge valve leakage,True
+DEMO-022,correction,replaced discharge valve assembly,replaced discharge valve assembly,True
+DEMO-022,parts,dv-903,dv-903,True
+DEMO-022,labor,3.5 | 5.0,3.5 | 5.0,True
+DEMO-022,reading,8.2 bar,8.2 bar,True
+DEMO-022,verification,operating test pass; discharge pressure stable at 10.1 bar,operating test pass; discharge pressure stable at 10.1 bar,True
+DEMO-023,claim_id,demo-023,demo-023,True
+DEMO-023,model,ac90,ac90,True
+DEMO-023,serial,cmp-90-4147,cmp-90-4147,True
+DEMO-023,hours,5512,5512,True
+DEMO-023,complaint,low discharge pressure and extended recovery time,low discharge pressure and extended recovery time,True
+DEMO-023,fault_code,p-low,p-low,True
+DEMO-023,cause,cause not documented,cause not documented,True
+DEMO-023,correction,replaced discharge valve assembly,replaced discharge valve assembly,True
+DEMO-023,parts,dv-903,dv-903,True
+DEMO-023,labor,4.0,4.0,True
+DEMO-023,reading,8.2 bar,8.2 bar,True
+DEMO-023,verification,operating test pass; discharge pressure stable at 10.1 bar,operating test pass; discharge pressure stable at 10.1 bar,True
+DEMO-024,claim_id,demo-024,demo-024,True
+DEMO-024,model,tr150,tr150,True
+DEMO-024,serial,agr-150-6502,agr-150-6502,True
+DEMO-024,hours,2870,2870,True
+DEMO-024,complaint,pto disengages under load,pto disengages under load,True
+DEMO-024,fault_code,pto-32,pto-32,True
+DEMO-024,cause,pto control solenoid sticking,pto control solenoid sticking,True
+DEMO-024,correction,replaced pto control solenoid,replaced pto control solenoid,True
+DEMO-024,parts,sol-150p,sol-150p,True
+DEMO-024,labor,3.5,3.5,True
+DEMO-024,reading,17.8 mpa,17.8 mpa,True
+DEMO-024,verification,pto dyno/operational test pass under rated load,pto dyno/operational test pass under rated load,True
+DEMO-025,claim_id,demo-025,demo-025,True
+DEMO-025,model,tr150,tr150,True
+DEMO-025,serial,agr-150-6502,agr-150-6502,True
+DEMO-025,hours,not recorded,not recorded,True
+DEMO-025,complaint,pto disengages under load,pto disengages under load,True
+DEMO-025,fault_code,pto-32,pto-32,True
+DEMO-025,cause,pto control solenoid sticking,pto control solenoid sticking,True
+DEMO-025,correction,replaced pto control solenoid,replaced pto control solenoid,True
+DEMO-025,parts,sol-150p,sol-150p,True
+DEMO-025,labor,3.5,3.5,True
+DEMO-025,reading,17.8 mpa,17.8 mpa,True
+DEMO-025,verification,pto dyno/operational test pass under rated load,pto dyno/operational test pass under rated load,True
+DEMO-026,claim_id,demo-026,demo-026,True
+DEMO-026,model,tr150 | tr180,tr150 | tr180,True
+DEMO-026,serial,agr-150-6502,agr-150-6502,True
+DEMO-026,hours,2870,2870,True
+DEMO-026,complaint,pto disengages under load,pto disengages under load,True
+DEMO-026,fault_code,pto-32,pto-32,True
+DEMO-026,cause,pto control solenoid sticking,pto control solenoid sticking,True
+DEMO-026,correction,replaced pto control solenoid,replaced pto control solenoid,True
+DEMO-026,parts,sol-150p,sol-150p,True
+DEMO-026,labor,3.5,3.5,True
+DEMO-026,reading,17.8 mpa,17.8 mpa,True
+DEMO-026,verification,pto dyno/operational test pass under rated load,pto dyno/operational test pass under rated load,True
+DEMO-027,claim_id,demo-027,demo-027,True
+DEMO-027,model,tr150,tr150,True
+DEMO-027,serial,agr-150-6502,agr-150-6502,True
+DEMO-027,hours,2870,2870,True
+DEMO-027,complaint,pto disengages under load,pto disengages under load,True
+DEMO-027,fault_code,pto-32,pto-32,True
+DEMO-027,cause,pto control solenoid sticking,pto control solenoid sticking,True
+DEMO-027,correction,replaced pto control solenoid,replaced pto control solenoid,True
+DEMO-027,parts,sol-150p,sol-150p,True
+DEMO-027,labor,3.5,3.5,True
+DEMO-027,reading,17.8 mpa,17.8 mpa,True
+DEMO-027,verification,not documented,not documented,True
+DEMO-028,claim_id,demo-028,demo-028,True
+DEMO-028,model,ld950,ld950,True
+DEMO-028,serial,ldr-950-2207,ldr-950-2207,True
+DEMO-028,hours,4980,4980,True
+DEMO-028,complaint,bucket tilt cylinder leaks externally,bucket tilt cylinder leaks externally,True
+DEMO-028,fault_code,hyd-lk,hyd-lk,True
+DEMO-028,cause,tilt cylinder rod seal damaged,tilt cylinder rod seal damaged,True
+DEMO-028,correction,resealed tilt cylinder,resealed tilt cylinder,True
+DEMO-028,parts,tsk-950,tsk-950,True
+DEMO-028,labor,5.0,5.0,True
+DEMO-028,reading,25.9 mpa,25.9 mpa,True
+DEMO-028,verification,leak check and loaded tilt-cycle test pass,leak check and loaded tilt-cycle test pass,True
+DEMO-029,claim_id,demo-029,demo-029,True
+DEMO-029,model,ld950,ld950,True
+DEMO-029,serial,ldr-950-2207,ldr-950-2207,True
+DEMO-029,hours,4980,4980,True
+DEMO-029,complaint,bucket tilt cylinder leaks externally,bucket tilt cylinder leaks externally,True
+DEMO-029,fault_code,hyd-lk,hyd-lk,True
+DEMO-029,cause,tilt cylinder rod seal damaged,tilt cylinder rod seal damaged,True
+DEMO-029,correction,resealed tilt cylinder,resealed tilt cylinder,True
+DEMO-029,parts,tsk-950,tsk-950,True
+DEMO-029,labor,5.0,5.0,True
+DEMO-029,reading,25.9 mpa,25.9 mpa,True
+DEMO-029,verification,leak check and loaded tilt-cycle test pass,leak check and loaded tilt-cycle test pass,True
+DEMO-030,claim_id,demo-030,demo-030,True

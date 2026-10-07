@@ -1,0 +1,173 @@
+{
+  "overall_failures": [
+    {
+      "claim_id": "EXTC-013",
+      "family": "MEC",
+      "expected": "READY",
+      "actual": "INCONSISTENT",
+      "rule_issues": [
+        {
+          "rule_id": "R011",
+          "status": "INCONSISTENT",
+          "name": "Model consistency",
+          "reason": "Conflicting equipment models found.",
+          "evidence": {
+            "values": "MEC-4555, Number"
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "EXTC-014",
+      "family": "MEC",
+      "expected": "MISSING_EVIDENCE",
+      "actual": "INCONSISTENT",
+      "rule_issues": [
+        {
+          "rule_id": "R011",
+          "status": "INCONSISTENT",
+          "name": "Model consistency",
+          "reason": "Conflicting equipment models found.",
+          "evidence": {
+            "values": "MEC-4555, Number"
+          }
+        },
+        {
+          "rule_id": "R005",
+          "status": "MISSING_EVIDENCE",
+          "name": "Diagnostic reading evidence",
+          "reason": "A diagnostic test is referenced but the measured result is missing.",
+          "evidence": {}
+        }
+      ]
+    }
+  ],
+  "field_failures": [
+    {
+      "claim_id": "EXTC-001",
+      "family": "PALADIN",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-002",
+      "family": "PALADIN",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-003",
+      "family": "PALADIN",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-004",
+      "family": "FIRSTAIR",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-005",
+      "family": "FIRSTAIR",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-006",
+      "family": "FIRSTAIR",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-007",
+      "family": "LIFT_TEK",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-008",
+      "family": "LIFT_TEK",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-009",
+      "family": "LIFT_TEK",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-010",
+      "family": "ENCORE",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-011",
+      "family": "ENCORE",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-012",
+      "family": "ENCORE",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-013",
+      "family": "MEC",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-013",
+      "family": "MEC",
+      "field": "correction",
+      "expected": "connection repaired, terminals secured, and operation retested",
+      "actual": "ed, terminals secured, and operation retested"
+    },
+    {
+      "claim_id": "EXTC-014",
+      "family": "MEC",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-014",
+      "family": "MEC",
+      "field": "correction",
+      "expected": "connection repaired, terminals secured, and operation retested",
+      "actual": "ed, terminals secured, and operation retested"
+    },
+    {
+      "claim_id": "EXTC-015",
+      "family": "MEC",
+      "field": "labor",
+      "expected": "3.0",
+      "actual": []
+    },
+    {
+      "claim_id": "EXTC-015",
+      "family": "MEC",
+      "field": "correction",
+      "expected": "connection repaired, terminals secured, and operation retested",
+      "actual": "ed, terminals secured, and operation retested"
+    }
+  ]
+}

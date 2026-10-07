@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-011",
+  "profile": "general_heavy_equipment",
+  "equipment": "Agricultural",
+  "expected_status": "READY",
+  "defect": "none",
+  "serial": "AG-190-7011",
+  "model": "T190",
+  "hours": 1907,
+  "expected_citation_page_for_reading": 1
+}

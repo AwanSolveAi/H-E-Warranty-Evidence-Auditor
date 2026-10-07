@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-009",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "INCONSISTENT",
+  "defect": "labor_conflict",
+  "serial": "GN-9009",
+  "model": "G129",
+  "hours": 1833,
+  "expected_citation_page_for_reading": 1
+}

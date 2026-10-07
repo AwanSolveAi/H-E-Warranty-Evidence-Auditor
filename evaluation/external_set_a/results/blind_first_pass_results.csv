@@ -1,0 +1,16 @@
+claim_id,family,profile,expected,actual,pass
+EXT-001,BLUE_GIANT,general_heavy_equipment,READY,READY,True
+EXT-002,BLUE_GIANT,general_heavy_equipment,MISSING_EVIDENCE,MISSING_EVIDENCE,True
+EXT-003,BLUE_GIANT,general_heavy_equipment,INCONSISTENT,INCONSISTENT,True
+EXT-004,ANA,generator,READY,READY,True
+EXT-005,ANA,generator,MISSING_EVIDENCE,MISSING_EVIDENCE,True
+EXT-006,ANA,generator,INCONSISTENT,INCONSISTENT,True
+EXT-007,HS,general_heavy_equipment,READY,READY,True
+EXT-008,HS,general_heavy_equipment,MISSING_EVIDENCE,MISSING_EVIDENCE,True
+EXT-009,HS,general_heavy_equipment,INCONSISTENT,INCONSISTENT,True
+EXT-010,ROCKZONE,general_heavy_equipment,READY,READY,True
+EXT-011,ROCKZONE,general_heavy_equipment,MISSING_EVIDENCE,MISSING_EVIDENCE,True
+EXT-012,ROCKZONE,general_heavy_equipment,INCONSISTENT,INCONSISTENT,True
+EXT-013,KTEC,general_heavy_equipment,READY,INCONSISTENT,False
+EXT-014,KTEC,general_heavy_equipment,MISSING_EVIDENCE,INCONSISTENT,False
+EXT-015,KTEC,general_heavy_equipment,INCONSISTENT,INCONSISTENT,True

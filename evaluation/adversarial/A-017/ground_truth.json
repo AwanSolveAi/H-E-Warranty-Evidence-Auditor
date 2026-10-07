@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-017",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "gen_output_missing",
+  "serial": "GN-9017",
+  "model": "G137",
+  "hours": 2129,
+  "expected_citation_page_for_reading": 1
+}

@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-003",
+  "profile": "general_heavy_equipment",
+  "equipment": "Industrial Engine",
+  "expected_status": "INCONSISTENT",
+  "defect": "part_conflict",
+  "serial": "EN-67-7003",
+  "model": "E67",
+  "hours": 1611,
+  "expected_citation_page_for_reading": 2
+}

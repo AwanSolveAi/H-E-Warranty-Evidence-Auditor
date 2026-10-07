@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-012",
+  "profile": "general_heavy_equipment",
+  "equipment": "Forklift",
+  "expected_status": "INCONSISTENT",
+  "defect": "duplicate",
+  "serial": "FL-45-7012",
+  "model": "F45E",
+  "hours": 1944,
+  "expected_citation_page_for_reading": 2
+}

@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-005",
+  "profile": "general_heavy_equipment",
+  "equipment": "Loader",
+  "expected_status": "INCONSISTENT",
+  "defect": "date_conflict",
+  "serial": "LD-650-7005",
+  "model": "WL650",
+  "hours": 1685,
+  "expected_citation_page_for_reading": 1
+}

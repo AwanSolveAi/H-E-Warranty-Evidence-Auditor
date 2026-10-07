@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-020",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "READY",
+  "defect": "none",
+  "serial": "GN-9020",
+  "model": "G140",
+  "hours": 2240,
+  "expected_citation_page_for_reading": 1
+}

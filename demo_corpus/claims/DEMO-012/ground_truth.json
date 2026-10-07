@@ -1,0 +1,43 @@
+{
+  "model": "IE-Q6",
+  "serial": "ENG-Q6-7712",
+  "hours": 6930,
+  "complaint": "Low oil pressure warning under warm idle.",
+  "code": "ECM-0521",
+  "test": "Engine oil pressure",
+  "reading": "185 kPa",
+  "cause": "Oil pressure sender reading out of tolerance",
+  "correction": "Replaced oil pressure sender",
+  "part": "OPS-771",
+  "labor": 2.0,
+  "verify": "Warm idle run test PASS; oil pressure stable.",
+  "claim_id": "DEMO-012",
+  "equipment_category": "Industrial Engine",
+  "repair_open": "2026-09-13",
+  "repair_close": "2026-09-14",
+  "claim_date": "2026-09-15",
+  "dealer": "North Ridge Equipment Services",
+  "technician": "Technician L",
+  "expected_status": "MISSING_EVIDENCE",
+  "scenario": "Fault code present but no ECM printout or test detail",
+  "defects": [
+    "ECM/test evidence missing"
+  ],
+  "observed_values": {
+    "claim_serial": "ENG-Q6-7712",
+    "work_serial": "ENG-Q6-7712",
+    "diag_serial": "ENG-Q6-7712",
+    "parts_serial": "ENG-Q6-7712",
+    "claim_hours": 6930,
+    "work_hours": 6930,
+    "diag_model": "IE-Q6",
+    "narrative_cause": "Oil pressure sender reading out of tolerance",
+    "narrative_part": "OPS-771",
+    "invoice_part": "OPS-771",
+    "labor_claimed": 2.0,
+    "labor_recorded": 2.0,
+    "diagnostic_reading": "NOT RECORDED",
+    "verification": "Warm idle run test PASS; oil pressure stable.",
+    "verification_date": "2026-09-14"
+  }
+}

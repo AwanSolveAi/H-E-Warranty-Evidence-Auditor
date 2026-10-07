@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-022",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "gen_load_missing",
+  "serial": "GN-9022",
+  "model": "G142",
+  "hours": 2314,
+  "expected_citation_page_for_reading": 1
+}

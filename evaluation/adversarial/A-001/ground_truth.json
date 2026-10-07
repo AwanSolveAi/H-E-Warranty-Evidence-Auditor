@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-001",
+  "profile": "general_heavy_equipment",
+  "equipment": "Compressor",
+  "expected_status": "INCONSISTENT",
+  "defect": "duplicate",
+  "serial": "CP-110-7001",
+  "model": "C110",
+  "hours": 1537,
+  "expected_citation_page_for_reading": 1
+}

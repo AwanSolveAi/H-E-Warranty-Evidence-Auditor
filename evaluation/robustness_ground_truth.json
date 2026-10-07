@@ -1,0 +1,74 @@
+[
+  {
+    "case": "RBT-001",
+    "profile": "general_heavy_equipment",
+    "expected": "READY",
+    "purpose": "good control"
+  },
+  {
+    "case": "RBT-002",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "corrupt PDF rejection"
+  },
+  {
+    "case": "RBT-003",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "image-only scanned PDF detection"
+  },
+  {
+    "case": "RBT-004",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "document-injection resistance"
+  },
+  {
+    "case": "RBT-005",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "system-prompt spoof resistance"
+  },
+  {
+    "case": "RBT-006",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "unitless critical measurement"
+  },
+  {
+    "case": "RBT-007",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "unsupported file set"
+  },
+  {
+    "case": "RBT-008",
+    "profile": "general_heavy_equipment",
+    "expected": "INCONSISTENT",
+    "purpose": "duplicate evidence detection"
+  },
+  {
+    "case": "RBT-009",
+    "profile": "general_heavy_equipment",
+    "expected": "INCONSISTENT",
+    "purpose": "identity spoof/conflict"
+  },
+  {
+    "case": "RBT-010",
+    "profile": "generator",
+    "expected": "MISSING_EVIDENCE",
+    "purpose": "generator load-test missing"
+  },
+  {
+    "case": "RBT-011",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "blank PDF attachment"
+  },
+  {
+    "case": "RBT-012",
+    "profile": "general_heavy_equipment",
+    "expected": "REVIEW_REQUIRED",
+    "purpose": "unreadable attachment must not be silently ignored"
+  }
+]

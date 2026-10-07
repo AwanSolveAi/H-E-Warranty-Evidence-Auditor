@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-002",
+  "profile": "general_heavy_equipment",
+  "equipment": "Loader",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "missing_reading",
+  "serial": "LD-650-7002",
+  "model": "WL650",
+  "hours": 1574,
+  "expected_citation_page_for_reading": 1
+}

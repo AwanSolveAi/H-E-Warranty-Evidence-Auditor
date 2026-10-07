@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-021",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "gen_battery_missing",
+  "serial": "GN-9021",
+  "model": "G141",
+  "hours": 2277,
+  "expected_citation_page_for_reading": 2
+}

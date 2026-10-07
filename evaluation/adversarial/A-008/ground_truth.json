@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-008",
+  "profile": "general_heavy_equipment",
+  "equipment": "Agricultural",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "verify_missing",
+  "serial": "AG-190-7008",
+  "model": "T190",
+  "hours": 1796,
+  "expected_citation_page_for_reading": 1
+}

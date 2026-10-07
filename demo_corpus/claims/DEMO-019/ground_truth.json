@@ -1,0 +1,43 @@
+{
+  "model": "FL30E",
+  "serial": "FLT-30-8891",
+  "hours": 3190,
+  "complaint": "Intermittent loss of traction.",
+  "code": "TRC-17",
+  "test": "Traction supply voltage",
+  "reading": "48.8 V",
+  "cause": "Traction motor encoder failure",
+  "correction": "Replaced traction motor encoder",
+  "part": "ENC-480",
+  "labor": 3.0,
+  "verify": "Forward/reverse loaded operational test PASS.",
+  "claim_id": "DEMO-019",
+  "equipment_category": "Forklift",
+  "repair_open": "2026-09-20",
+  "repair_close": "2026-09-21",
+  "claim_date": "2026-09-22",
+  "dealer": "North Ridge Equipment Services",
+  "technician": "Technician S",
+  "expected_status": "WEAK_EVIDENCE",
+  "scenario": "Technician narrative only says 'fixed unit'",
+  "defects": [
+    "insufficient technician narrative"
+  ],
+  "observed_values": {
+    "claim_serial": "FLT-30-8891",
+    "work_serial": "FLT-30-8891",
+    "diag_serial": "FLT-30-8891",
+    "parts_serial": "FLT-30-8891",
+    "claim_hours": 3190,
+    "work_hours": 3190,
+    "diag_model": "FL30E",
+    "narrative_cause": "Fixed unit.",
+    "narrative_part": "ENC-480",
+    "invoice_part": "ENC-480",
+    "labor_claimed": 3.0,
+    "labor_recorded": 3.0,
+    "diagnostic_reading": "48.8 V",
+    "verification": "Forward/reverse loaded operational test PASS.",
+    "verification_date": "2026-09-21"
+  }
+}

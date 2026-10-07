@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-004",
+  "profile": "general_heavy_equipment",
+  "equipment": "Excavator",
+  "expected_status": "INCONSISTENT",
+  "defect": "labor_conflict",
+  "serial": "HX-210-7004",
+  "model": "ZX210",
+  "hours": 1648,
+  "expected_citation_page_for_reading": 1
+}

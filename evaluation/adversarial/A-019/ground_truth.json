@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-019",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "gen_load_missing",
+  "serial": "GN-9019",
+  "model": "G139",
+  "hours": 2203,
+  "expected_citation_page_for_reading": 1
+}

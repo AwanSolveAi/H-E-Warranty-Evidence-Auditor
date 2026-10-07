@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-011",
+  "profile": "general_heavy_equipment",
+  "equipment": "Loader",
+  "expected_status": "REVIEW_REQUIRED",
+  "defect": "unsupported",
+  "serial": "LD-650-7011",
+  "model": "WL650",
+  "hours": 1907,
+  "expected_citation_page_for_reading": null
+}

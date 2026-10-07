@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-016",
+  "profile": "general_heavy_equipment",
+  "equipment": "Compressor",
+  "expected_status": "READY",
+  "defect": "none",
+  "serial": "CP-110-7016",
+  "model": "C110",
+  "hours": 2092,
+  "expected_citation_page_for_reading": 2
+}

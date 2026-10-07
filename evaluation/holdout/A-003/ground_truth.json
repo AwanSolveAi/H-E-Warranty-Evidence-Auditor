@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-003",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "INCONSISTENT",
+  "defect": "serial_conflict",
+  "serial": "GN-9003",
+  "model": "G123",
+  "hours": 1611,
+  "expected_citation_page_for_reading": 1
+}

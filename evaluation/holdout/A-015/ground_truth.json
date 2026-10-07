@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-015",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "missing_reading",
+  "serial": "GN-9015",
+  "model": "G135",
+  "hours": 2055,
+  "expected_citation_page_for_reading": 1
+}

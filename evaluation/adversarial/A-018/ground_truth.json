@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-018",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "gen_frequency_missing",
+  "serial": "GN-9018",
+  "model": "G138",
+  "hours": 2166,
+  "expected_citation_page_for_reading": 2
+}

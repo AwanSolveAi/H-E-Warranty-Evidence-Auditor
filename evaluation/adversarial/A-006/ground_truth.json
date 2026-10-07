@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-006",
+  "profile": "general_heavy_equipment",
+  "equipment": "Forklift",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "missing_reading",
+  "serial": "FL-45-7006",
+  "model": "F45E",
+  "hours": 1722,
+  "expected_citation_page_for_reading": 2
+}

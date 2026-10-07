@@ -1,0 +1,43 @@
+{
+  "model": "AC90",
+  "serial": "CMP-90-4147",
+  "hours": 5512,
+  "complaint": "Low discharge pressure and extended recovery time.",
+  "code": "P-LOW",
+  "test": "Discharge pressure",
+  "reading": "8.2 bar",
+  "cause": "Discharge valve leakage",
+  "correction": "Replaced discharge valve assembly",
+  "part": "DV-903",
+  "labor": 4.0,
+  "verify": "Operating test PASS; discharge pressure stable at 10.1 bar.",
+  "claim_id": "DEMO-023",
+  "equipment_category": "Compressor",
+  "repair_open": "2026-09-04",
+  "repair_close": "2026-09-05",
+  "claim_date": "2026-09-06",
+  "dealer": "North Ridge Equipment Services",
+  "technician": "Technician C",
+  "expected_status": "WEAK_EVIDENCE",
+  "scenario": "Valve replaced without documented cause",
+  "defects": [
+    "cause evidence missing/weak"
+  ],
+  "observed_values": {
+    "claim_serial": "CMP-90-4147",
+    "work_serial": "CMP-90-4147",
+    "diag_serial": "CMP-90-4147",
+    "parts_serial": "CMP-90-4147",
+    "claim_hours": 5512,
+    "work_hours": 5512,
+    "diag_model": "AC90",
+    "narrative_cause": "Cause not documented.",
+    "narrative_part": "DV-903",
+    "invoice_part": "DV-903",
+    "labor_claimed": 4.0,
+    "labor_recorded": 4.0,
+    "diagnostic_reading": "8.2 bar",
+    "verification": "Operating test PASS; discharge pressure stable at 10.1 bar.",
+    "verification_date": "2026-09-05"
+  }
+}

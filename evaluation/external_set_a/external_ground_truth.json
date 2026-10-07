@@ -1,0 +1,317 @@
+[
+  {
+    "claim_id": "EXT-001",
+    "family": "BLUE_GIANT",
+    "source_note": "Blue Giant public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "BG-E45",
+      "serial": "BG45-8201",
+      "hours": "2261",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-002",
+    "family": "BLUE_GIANT",
+    "source_note": "Blue Giant public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "diagnostic_reading_missing",
+    "expected_fields": {
+      "model": "BG-E45",
+      "serial": "BG45-8202",
+      "hours": "2322",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-003",
+    "family": "BLUE_GIANT",
+    "source_note": "Blue Giant public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "BG-E45",
+      "serial": "BG45-8203",
+      "hours": "2383",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-004",
+    "family": "ANA",
+    "source_note": "ANA public generator warranty claim structure",
+    "profile": "generator",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "ANA-G180",
+      "serial": "ANA18-8204",
+      "hours": "2444",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "398 V",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-005",
+    "family": "ANA",
+    "source_note": "ANA public generator warranty claim structure",
+    "profile": "generator",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "diagnostic_reading_missing",
+    "expected_fields": {
+      "model": "ANA-G180",
+      "serial": "ANA18-8205",
+      "hours": "2505",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-006",
+    "family": "ANA",
+    "source_note": "ANA public generator warranty claim structure",
+    "profile": "generator",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "ANA-G180",
+      "serial": "ANA18-8206",
+      "hours": "2566",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "398 V",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-007",
+    "family": "HS",
+    "source_note": "H&S Manufacturing public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "HS-RT200",
+      "serial": "HS200-8207",
+      "hours": "2627",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-008",
+    "family": "HS",
+    "source_note": "H&S Manufacturing public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "diagnostic_reading_missing",
+    "expected_fields": {
+      "model": "HS-RT200",
+      "serial": "HS200-8208",
+      "hours": "2688",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-009",
+    "family": "HS",
+    "source_note": "H&S Manufacturing public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "HS-RT200",
+      "serial": "HS200-8209",
+      "hours": "2749",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-010",
+    "family": "ROCKZONE",
+    "source_note": "RockZone Americas public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "RZ-RW55",
+      "serial": "RZ55-8210",
+      "hours": "2810",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-011",
+    "family": "ROCKZONE",
+    "source_note": "RockZone Americas public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "diagnostic_reading_missing",
+    "expected_fields": {
+      "model": "RZ-RW55",
+      "serial": "RZ55-8211",
+      "hours": "2871",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-012",
+    "family": "ROCKZONE",
+    "source_note": "RockZone Americas public warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "RZ-RW55",
+      "serial": "RZ55-8212",
+      "hours": "2932",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-013",
+    "family": "KTEC",
+    "source_note": "K-Tec public scraper warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "KT-SC40",
+      "serial": "KT40-8213",
+      "hours": "2993",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-014",
+    "family": "KTEC",
+    "source_note": "K-Tec public scraper warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "diagnostic_reading_missing",
+    "expected_fields": {
+      "model": "KT-SC40",
+      "serial": "KT40-8214",
+      "hours": "3054",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Final operational test completed - PASS"
+    }
+  },
+  {
+    "claim_id": "EXT-015",
+    "family": "KTEC",
+    "source_note": "K-Tec public scraper warranty claim structure",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "KT-SC40",
+      "serial": "KT40-8215",
+      "hours": "3115",
+      "complaint": "Hydraulic/output performance becomes unstable after sustained operation.",
+      "fault_code": "EXT-42",
+      "cause": "Electrical feedback connector resistance caused unstable control signal.",
+      "correction": "Connector repaired, terminals secured, and system retested.",
+      "part": "CN-4421",
+      "labor": "3.5",
+      "diagnostic_reading": "24.6 MPa",
+      "verification": "Final operational test completed - PASS"
+    }
+  }
+]

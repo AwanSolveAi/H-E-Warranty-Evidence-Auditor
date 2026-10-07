@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-006",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "READY",
+  "defect": "none",
+  "serial": "GN-9006",
+  "model": "G126",
+  "hours": 1722,
+  "expected_citation_page_for_reading": 1
+}

@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-012",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "INCONSISTENT",
+  "defect": "date_conflict",
+  "serial": "GN-9012",
+  "model": "G132",
+  "hours": 1944,
+  "expected_citation_page_for_reading": 2
+}

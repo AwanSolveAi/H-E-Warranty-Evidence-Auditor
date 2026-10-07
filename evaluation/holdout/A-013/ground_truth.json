@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-013",
+  "profile": "general_heavy_equipment",
+  "equipment": "Excavator",
+  "expected_status": "REVIEW_REQUIRED",
+  "defect": "unsupported",
+  "serial": "HX-210-7013",
+  "model": "ZX210",
+  "hours": 1981,
+  "expected_citation_page_for_reading": null
+}

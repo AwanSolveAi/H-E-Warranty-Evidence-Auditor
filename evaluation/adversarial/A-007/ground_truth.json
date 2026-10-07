@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-007",
+  "profile": "general_heavy_equipment",
+  "equipment": "Compressor",
+  "expected_status": "WEAK_EVIDENCE",
+  "defect": "weak_cause",
+  "serial": "CP-110-7007",
+  "model": "C110",
+  "hours": 1759,
+  "expected_citation_page_for_reading": 1
+}

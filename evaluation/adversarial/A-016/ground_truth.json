@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-016",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "gen_battery_missing",
+  "serial": "GN-9016",
+  "model": "G136",
+  "hours": 2092,
+  "expected_citation_page_for_reading": 1
+}

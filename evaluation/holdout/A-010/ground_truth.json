@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-010",
+  "profile": "general_heavy_equipment",
+  "equipment": "Compressor",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "verify_missing",
+  "serial": "CP-110-7010",
+  "model": "C110",
+  "hours": 1870,
+  "expected_citation_page_for_reading": 1
+}

@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-014",
+  "profile": "general_heavy_equipment",
+  "equipment": "Agricultural",
+  "expected_status": "INCONSISTENT",
+  "defect": "part_conflict",
+  "serial": "AG-190-7014",
+  "model": "T190",
+  "hours": 2018,
+  "expected_citation_page_for_reading": 1
+}

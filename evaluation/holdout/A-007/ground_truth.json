@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-007",
+  "profile": "general_heavy_equipment",
+  "equipment": "Excavator",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "hours_missing",
+  "serial": "HX-210-7007",
+  "model": "ZX210",
+  "hours": "NOT RECORDED",
+  "expected_citation_page_for_reading": 1
+}

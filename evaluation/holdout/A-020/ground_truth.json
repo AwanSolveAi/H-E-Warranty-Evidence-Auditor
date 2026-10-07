@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-020",
+  "profile": "general_heavy_equipment",
+  "equipment": "Loader",
+  "expected_status": "READY",
+  "defect": "none",
+  "serial": "LD-650-7020",
+  "model": "WL650",
+  "hours": 2240,
+  "expected_citation_page_for_reading": 2
+}

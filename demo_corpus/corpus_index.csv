@@ -1,0 +1,31 @@
+claim_id,equipment,expected_status,scenario,defects,file_count
+DEMO-001,Excavator,READY,"Complete claim with hydraulic pressure, parts, labor and post-repair test",,6
+DEMO-002,Excavator,MISSING_EVIDENCE,Hydraulic test referenced but no reading,critical diagnostic measurement missing,6
+DEMO-003,Excavator,INCONSISTENT,Serial number differs between work order and diagnostic sheet,diagnostic sheet serial mismatch,6
+DEMO-004,Excavator,WEAK_EVIDENCE,Cause says 'hydraulic fault' with no supported diagnosis,weak unsupported cause statement,6
+DEMO-005,Excavator,INCONSISTENT,Part number in narrative differs from invoice,part number conflict,6
+DEMO-006,Generator,READY,Complete no-start claim with controller code and load test,,6
+DEMO-007,Generator,MISSING_EVIDENCE,Fuel-pressure test referenced but measurement missing,critical diagnostic measurement missing,6
+DEMO-008,Generator,MISSING_EVIDENCE,No post-repair load test,post-repair verification missing,6
+DEMO-009,Generator,INCONSISTENT,Operating hours differ across work order and claim form,operating-hour conflict,6
+DEMO-010,Generator,REVIEW_REQUIRED,Only invoice and short technician note provided,minimum claim-package boundary not met,3
+DEMO-011,Industrial Engine,READY,Complete ECM fault and oil-pressure supported claim,,6
+DEMO-012,Industrial Engine,MISSING_EVIDENCE,Fault code present but no ECM printout or test detail,ECM/test evidence missing,6
+DEMO-013,Industrial Engine,INCONSISTENT,Engine serial differs on parts invoice,parts record serial mismatch,6
+DEMO-014,Industrial Engine,WEAK_EVIDENCE,Cause not established; repair made on suspicion,repair performed on unconfirmed cause,6
+DEMO-015,Industrial Engine,INCONSISTENT,Post-repair run test dated before repair completion,post-repair verification chronology conflict,6
+DEMO-016,Forklift,READY,Complete traction fault claim with operational test,,6
+DEMO-017,Forklift,INCONSISTENT,Narrative says traction motor replaced; invoice lists hydraulic pump,repair narrative/parts invoice mismatch,6
+DEMO-018,Forklift,MISSING_EVIDENCE,Battery voltage referenced but value absent,critical diagnostic measurement missing,6
+DEMO-019,Forklift,WEAK_EVIDENCE,Technician narrative only says 'fixed unit',insufficient technician narrative,6
+DEMO-020,Compressor,READY,Complete pressure/temperature claim with post-repair test,,6
+DEMO-021,Compressor,MISSING_EVIDENCE,Discharge pressure reading absent,critical diagnostic measurement missing,6
+DEMO-022,Compressor,INCONSISTENT,Labor claimed 5.0 h; time card totals 3.5 h,labor-hours reconciliation failure,6
+DEMO-023,Compressor,WEAK_EVIDENCE,Valve replaced without documented cause,cause evidence missing/weak,6
+DEMO-024,Agricultural,READY,Complete PTO/hydraulic repair claim,,6
+DEMO-025,Agricultural,MISSING_EVIDENCE,No operating hours,operating hours missing,6
+DEMO-026,Agricultural,INCONSISTENT,Wrong tractor model shown on diagnostic sheet,diagnostic sheet model mismatch,6
+DEMO-027,Agricultural,MISSING_EVIDENCE,No post-repair operational verification,post-repair verification missing,6
+DEMO-028,Loader,READY,Complete hydraulic cylinder repair claim,,6
+DEMO-029,Loader,INCONSISTENT,Duplicate parts invoice counted twice,duplicate invoice,7
+DEMO-030,Loader,REVIEW_REQUIRED,Unrelated quotation uploaded as only supporting document,unsupported/unrelated package,2

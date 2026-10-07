@@ -1,0 +1,317 @@
+[
+  {
+    "claim_id": "EXTC-001",
+    "family": "PALADIN",
+    "source_note": "Paladin Heavy public claim form / warranty policy",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "PL-JRB90",
+      "serial": "PAL90-1201",
+      "hours": "1567",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-002",
+    "family": "PALADIN",
+    "source_note": "Paladin Heavy public claim form / warranty policy",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "missing_diagnostic_reading",
+    "expected_fields": {
+      "model": "PL-JRB90",
+      "serial": "PAL90-1202",
+      "hours": "1634",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-003",
+    "family": "PALADIN",
+    "source_note": "Paladin Heavy public claim form / warranty policy",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "PL-JRB90",
+      "serial": "PAL90-1203",
+      "hours": "1701",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-004",
+    "family": "FIRSTAIR",
+    "source_note": "firstAir Warranty Policy & Procedure Manual public claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "FA-RS75",
+      "serial": "FA75-1204",
+      "hours": "1768",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "8.9 bar",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-005",
+    "family": "FIRSTAIR",
+    "source_note": "firstAir Warranty Policy & Procedure Manual public claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "missing_diagnostic_reading",
+    "expected_fields": {
+      "model": "FA-RS75",
+      "serial": "FA75-1205",
+      "hours": "1835",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-006",
+    "family": "FIRSTAIR",
+    "source_note": "firstAir Warranty Policy & Procedure Manual public claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "FA-RS75",
+      "serial": "FA75-1206",
+      "hours": "1902",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "8.9 bar",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-007",
+    "family": "LIFT_TEK",
+    "source_note": "Lift-Tek public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "LT-M60",
+      "serial": "LTM60-1207",
+      "hours": "1969",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-008",
+    "family": "LIFT_TEK",
+    "source_note": "Lift-Tek public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "missing_diagnostic_reading",
+    "expected_fields": {
+      "model": "LT-M60",
+      "serial": "LTM60-1208",
+      "hours": "2036",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-009",
+    "family": "LIFT_TEK",
+    "source_note": "Lift-Tek public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "LT-M60",
+      "serial": "LTM60-1209",
+      "hours": "2103",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-010",
+    "family": "ENCORE",
+    "source_note": "Encore public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "ENC-P28",
+      "serial": "ENC28-1210",
+      "hours": "2170",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-011",
+    "family": "ENCORE",
+    "source_note": "Encore public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "missing_diagnostic_reading",
+    "expected_fields": {
+      "model": "ENC-P28",
+      "serial": "ENC28-1211",
+      "hours": "2237",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-012",
+    "family": "ENCORE",
+    "source_note": "Encore public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "ENC-P28",
+      "serial": "ENC28-1212",
+      "hours": "2304",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-013",
+    "family": "MEC",
+    "source_note": "MEC public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "READY",
+    "defect": "none",
+    "expected_fields": {
+      "model": "MEC-4555",
+      "serial": "MEC45-1213",
+      "hours": "2371",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-014",
+    "family": "MEC",
+    "source_note": "MEC public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "MISSING_EVIDENCE",
+    "defect": "missing_diagnostic_reading",
+    "expected_fields": {
+      "model": "MEC-4555",
+      "serial": "MEC45-1214",
+      "hours": "2438",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "NOT RECORDED",
+      "verification": "Post-repair operational test PASS"
+    }
+  },
+  {
+    "claim_id": "EXTC-015",
+    "family": "MEC",
+    "source_note": "MEC public warranty claim form",
+    "profile": "general_heavy_equipment",
+    "expected_status": "INCONSISTENT",
+    "defect": "serial_conflict",
+    "expected_fields": {
+      "model": "MEC-4555",
+      "serial": "MEC45-1215",
+      "hours": "2505",
+      "complaint": "Intermittent loss of performance occurs after extended operation.",
+      "fault_code": "C-88",
+      "cause": "Control feedback connection developed intermittent resistance.",
+      "correction": "Connection repaired, terminals secured, and operation retested.",
+      "part": "PT-8842",
+      "labor": "3.0",
+      "diagnostic_reading": "23.8 MPa",
+      "verification": "Post-repair operational test PASS"
+    }
+  }
+]

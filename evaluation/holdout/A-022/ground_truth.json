@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-022",
+  "profile": "general_heavy_equipment",
+  "equipment": "Compressor",
+  "expected_status": "MISSING_EVIDENCE",
+  "defect": "hours_missing",
+  "serial": "CP-110-7022",
+  "model": "C110",
+  "hours": "NOT RECORDED",
+  "expected_citation_page_for_reading": 1
+}

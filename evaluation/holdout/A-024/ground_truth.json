@@ -1,0 +1,11 @@
+{
+  "claim_id": "A-024",
+  "profile": "generator",
+  "equipment": "Generator",
+  "expected_status": "INCONSISTENT",
+  "defect": "labor_conflict",
+  "serial": "GN-9024",
+  "model": "G144",
+  "hours": 2388,
+  "expected_citation_page_for_reading": 2
+}
